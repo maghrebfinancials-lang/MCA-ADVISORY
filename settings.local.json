@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\pc\\\\Desktop\\\\MCA ADVISORY\\\\assets\\\\css\")",
+      "Bash(Out-Null)",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\pc\\\\Desktop\\\\MCA ADVISORY\\\\assets\\\\js\")",
+      "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\pc\\\\Desktop\\\\MCA ADVISORY\\\\assets\\\\img\")",
+      "Bash(Write-Output \"Directories created\")"
+    ]
+  }
+}
